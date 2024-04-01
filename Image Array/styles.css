@@ -1,0 +1,45 @@
+h1 {
+  color: #FF0000;
+}
+
+/* ----- Image ----- */
+img {
+  padding: 5px;
+  margin: 5px;
+  width: 100px;
+  height: 100px;;
+}
+
+/* ----- Image List ----- */
+#img-list {
+  display: none;
+  list-style: none;
+}
+
+#img-list li {
+  display: inline-block;
+}
+
+/* ----- Button ----- */
+#btn {
+  padding: 10px;
+  font-size: 14px;
+  border: .5px solid #FFFFFF;
+  border-radius: 10px;
+  background-color: #D11BFF;
+  color: white;
+}
+
+#btn:hover, #btn.clicked:hover {
+  color: #000000;
+  border-color: #000000;
+  background-color: #FFF000;
+}
+
+#btn:active, #btn.clicked:active {
+  background-color: #000000;
+}
+
+#btn.clicked {
+  background-color: #FF0000;
+}
