@@ -1,0 +1,99 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+
+#wrapper {
+  width: 80%;
+  margin: auto;
+}
+
+/* ---------- LOGO & NAVIGATION ---------- */
+#top {
+  width: 100%;
+  padding: 0 20px;
+  margin-bottom: 10px;
+  min-height: 50px;
+  line-height: 50px;
+  background-color: lightgray;
+}
+
+#logo {
+  float: left;
+  font-size: 20px;
+}
+
+#nav {
+  float: right;
+}
+
+/* ---------- HEADER / BANNER ---------- */
+#header-banner {
+  width: 100%;
+  margin-bottom: 10px;
+  background-color: lightgray;
+  min-height: 80px;
+  line-height: 80px;
+  text-align: center;
+  font-size: 20px;
+}
+
+/* ---------- INTRO TEXT AREA ---------- */
+#intro-text {
+  width: 100%;
+  margin-bottom: 10px;
+  background-color: lightgray;
+  min-height: 100px;
+  line-height: 100px;
+  text-align: center;
+  font-size: 23px;
+}
+
+/* ---------- BOXES ---------- */
+#main {
+  width: 100%;
+  border: 10px solid lightgray;
+  margin-bottom: 10px;
+  display: flex;
+  flex-direction: column;
+}
+
+.box-row {
+  display: flex;
+  flex-direction: row;
+}
+
+.box {
+  width: 25%;
+  margin: 20px auto;
+  background-color: lightgray;
+  align-self: auto;
+  min-height: 250px;
+  line-height: 250px;
+  text-align: center;
+  font-size: 25px;
+}
+
+/* ---------- FOOTER ---------- */
+#footer {
+  width: 100%;
+  background-color: lightgray;
+  min-height: 40px;
+  line-height: 40px;
+  text-align: center;
+}
+
+/* CLEARFIX CLASS */
+.clearfix::after {
+  content: "";
+  display: block;
+  clear: both;
+}
+
+@media(max-width: 460px) {
+  .box {
+    margin: 14px;
+  }
+}
